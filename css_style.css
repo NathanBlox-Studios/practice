@@ -1,0 +1,78 @@
+.search{
+    display: flex;
+    justify-content: center;   
+    width: 530px;
+    border-radius: 40px;
+    background-color: gainsboro;
+    padding: 10px; 
+}
+div#img_div{
+    text-align: center;
+}
+#search-text{
+    text-decoration: none;
+    line-height: 40px;
+    background: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    width: 1315px;
+    height: 210px;
+}
+footer{
+    background: gray;
+    border: thin solid black;
+}
+footer > div{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+div.right{
+    display: flex;
+    justify-content: flex-end;
+    border: thin solid black;
+}
+div.left{
+    display: flex;
+    justify-content: flex-start;
+}
+header > a{
+    color: grey;
+    text-decoration: none;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.pgcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    padding: 7px;
+}
+button:hover{
+    text-shadow: 2px 2px white;
+}
+p.safe{
+    text-align: center;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.goil{
+    text-align: center;
+}
+.cvnt-text{
+    text-align: center;
+}
+.options{
+    text-align: center;
+}
